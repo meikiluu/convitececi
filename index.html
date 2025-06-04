@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Encaminhamento Psicológico 💖</title>
+  <title>Nosso Reencontro 💖</title>
   <style>
     body {
       background-color: #ffe6f0;
@@ -18,12 +19,6 @@
       color: #d63384;
       font-size: 26px;
       margin-top: 300px;
-    }
-    #message {
-      font-size: 20px;
-      color: #d63384;
-      display: none;
-      margin-top: 30px;
     }
     .btn {
       font-size: 18px;
@@ -45,22 +40,17 @@
   </style>
 </head>
 <body>
-  <h1>Tem Dra. Cecília horário disponível para marcarmos uma conversa?<br>De preferência fora do horário comercial.</h1>
-  <button class="btn" id="yes">Sim</button>
-  <button class="btn" id="no">Não</button>
-
-  <div id="message">Que ótimo! Podemos marcar a data e hora? ❤️</div>
+  <h1>Giovana, você é como doce de leite: irresistível, grudou na minha memória e no meu coração... Que tal a gente transformar esse reencontro em um acidente de sem querer minha boca encontrar a sua?</h1>
+  <button class="btn" id="yes">Topo!</button>
+  <button class="btn" id="no">Nem pensar!</button>
 
   <script>
     const yesBtn = document.getElementById('yes');
     const noBtn = document.getElementById('no');
-    const message = document.getElementById('message');
 
     yesBtn.addEventListener('click', () => {
-      message.style.display = 'block';
-      setTimeout(() => {
-        window.location.href = 'https://wa.me/43991604079';
-      }, 2500);
+      alert('Perfeito! Então... quer sair comigo na sexta-feira à noite? 🥰');
+      window.location.href = 'https://wa.me/43991604079';
     });
 
     noBtn.addEventListener('mouseover', () => {
@@ -72,3 +62,4 @@
   </script>
 </body>
 </html>
+
